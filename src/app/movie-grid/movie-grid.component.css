@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: #04AA6D;
+}
+
+.movie-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .movie-card {
+    width: 400px;
+  }
+
+  img {
+    width: 100%;
+  }
